@@ -18,7 +18,7 @@ $(document).ready(function(){
  	// alert(getCookie("token"));
 
     var token = getCookie("token");
-    var el = '<input id="login-username" type="hidden" class="form-control" name="csrf_token" value="fuck">';
+    var el = '<input id="login-username" type="hidden" class="form-control" name="csrf_token" value="test">';
     $('#hidden_input').append(el);
     $('[name="csrf_token"]').val(token);
 });
